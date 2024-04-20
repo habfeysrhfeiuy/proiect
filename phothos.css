@@ -1,0 +1,42 @@
+.GOAT {
+    display: flex;
+    flex-direction: column;
+    min-height: 700PX;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    text-align: center;
+    letter-spacing: 2px;
+    height: fit-content;
+    width: fit-content;
+    margin: 70px;
+}
+
+.item p {
+    margin: 0%;
+}
+
+.item img {
+    width: 500px;
+    height: 400px;
+    border: 1px inherit;
+    border-radius: 22px;
+}
+
+.item img:hover {
+    transition: all 0.6s;
+    transform: translate(-3px) scale(1.2);
+    transition: ease;
+}
